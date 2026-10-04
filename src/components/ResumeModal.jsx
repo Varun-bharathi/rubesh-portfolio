@@ -148,7 +148,7 @@ export default function ResumeModal({ onClose }) {
             <div style={{ marginBottom: '1.4rem' }}>
               <h2 className="resume-sec-head">Objective</h2>
               <p style={{ fontSize: '0.92rem', color: 'var(--text-secondary)', lineHeight: '1.65' }}>
-                Aspiring Software Professional with a strong foundation in Data Analyst and Python Automation Development. Skilled in Python, SQL, data analysis, visualization, and test automation. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.
+                Aspiring Software Professional with a strong foundation in Data Analyst and  Development. Skilled in Python, SQL, data analysis, visualization, and test automation. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.
               </p>
             </div>
 

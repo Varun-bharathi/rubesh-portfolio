@@ -3,7 +3,7 @@ export const personalData = {
   fullName: "Rubesh Karthik SS",
   title: "Computer Science & Engineering Student",
   roles: [
-    "Data Analytics & Python Automation Developer",
+    "Data Analytics &  Developer",
     "AI & Computer Vision Enthusiast",
     "B.E. CSE Student @ SNS College of Technology",
     "Full-Stack Web & Software Developer"
@@ -19,7 +19,7 @@ export const personalData = {
   linkedin: "https://www.linkedin.com/in/rubesh-karthik-ss?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   leetcode: "https://leetcode.com/rubeshkarthikSS",
   twitter: "https://x.com/rubeshkarthikSS",
-  bio: "Aspiring Software Professional with a strong foundation in Data Analyst and Python Automation Development. Skilled in Python, SQL, data analysis, visualization, and test automation. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.",
+  bio: "Aspiring Software Professional with a strong foundation in Data Analyst and  Development. Skilled in Python, SQL, data analysis, visualization, and test automation. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.",
   quickStats: [
     { label: "B.E. CGPA", value: "7.93", helper: "SNS College of Technology" },
     { label: "Technical Projects", value: "6+", helper: "AI, Python & Analytics" },
@@ -236,7 +236,7 @@ export const educationData = {
     "Data Structures & Algorithms",
     "Database Management Systems (DBMS)",
     "Computer Networks",
-    "Python Automation & Scripting",
+    " & Scripting",
     "Data Analytics & Business Intelligence",
     "Operating Systems",
     "Software Engineering Principles"

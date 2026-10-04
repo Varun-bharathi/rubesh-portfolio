@@ -1,14 +1,14 @@
 import React from 'react';
-import { 
-  Binary, 
-  Layers, 
-  Server, 
-  BrainCircuit, 
-  Trophy, 
-  MapPin, 
-  GraduationCap, 
-  Briefcase, 
-  Award, 
+import {
+  Binary,
+  Layers,
+  Server,
+  BrainCircuit,
+  Trophy,
+  MapPin,
+  GraduationCap,
+  Briefcase,
+  Award,
   ExternalLink,
   Code,
   CheckCircle2,
@@ -23,7 +23,7 @@ export default function About() {
   return (
     <section className="section" id="about">
       <div className="container">
-        
+
         <div className="section-header">
           <div className="section-badge">
             <Binary size={14} />
@@ -31,15 +31,15 @@ export default function About() {
           </div>
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle">
-            Computer Science Engineering student specializing in Data Analytics, Python Automation, and AI-driven systems.
+            Computer Science Engineering student specializing in Data Analytics, , and AI-driven systems.
           </p>
         </div>
 
         <div className="about-grid">
-          
+
           {/* Left Column: Portrait & Key Details */}
           <div className="glass-card about-profile-card">
-            
+
             {/* Rubesh's Photo Frame */}
             <div className="about-photo-frame">
               <img
@@ -55,9 +55,9 @@ export default function About() {
             <h3 style={{ fontSize: '1.45rem', fontWeight: '800', marginBottom: '0.25rem' }}>
               {personalData.fullName}
             </h3>
-            
+
             <div style={{ color: 'var(--cyan)', fontSize: '0.88rem', fontFamily: 'var(--font-mono)', fontWeight: '600', marginBottom: '1.25rem' }}>
-              Python Automation & Data Analytics Developer
+              & Data Analytics
             </div>
 
             {/* Quick Metadata List */}
@@ -158,7 +158,7 @@ export default function About() {
                   <div className="pillar-icon-box">
                     <Server size={20} />
                   </div>
-                  <div className="pillar-title">Python Automation</div>
+                  <div className="pillar-title"></div>
                   <div className="pillar-desc">
                     Pytest test automation, Flask RESTful web services, Tkinter desktop GUIs, and PyMySQL database transactions.
                   </div>
