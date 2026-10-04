@@ -10,7 +10,7 @@ A high-performance, responsive personal portfolio web application built with **R
 - **Institution:** SNS College Of Technology, Coimbatore, Tamil Nadu
 - **Academic Standing:** CGPA: 7.93 / 10.0
 - **Location:** Bangalore, Karnataka, India
-- **Focus Areas:** Data Analytics,  Development, AI & Computer Vision, Business Intelligence
+- **Focus Areas:** Data Analytics, Software Development, AI & Computer Vision, Business Intelligence
 - **LinkedIn:** [rubesh-karthik-ss](https://www.linkedin.com/in/rubesh-karthik-ss?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 - **GitHub:** [@Rubesh166](https://github.com/Rubesh166)
 - **Email:** [rubeshkarthik166@gmail.com](mailto:rubeshkarthik166@gmail.com)

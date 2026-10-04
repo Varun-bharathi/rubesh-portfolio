@@ -31,7 +31,7 @@ export default function About() {
           </div>
           <h2 className="section-title">About Me</h2>
           <p className="section-subtitle">
-            Computer Science Engineering student specializing in Data Analytics, , and AI-driven systems.
+            Computer Science Engineering student specializing in Data Analytics, Software Development, and AI-driven systems.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export default function About() {
             </h3>
 
             <div style={{ color: 'var(--cyan)', fontSize: '0.88rem', fontFamily: 'var(--font-mono)', fontWeight: '600', marginBottom: '1.25rem' }}>
-              & Data Analytics
+              Software Development & Data Analytics
             </div>
 
             {/* Quick Metadata List */}
@@ -158,7 +158,7 @@ export default function About() {
                   <div className="pillar-icon-box">
                     <Server size={20} />
                   </div>
-                  <div className="pillar-title"></div>
+                  <div className="pillar-title">Software Development</div>
                   <div className="pillar-desc">
                     Pytest test automation, Flask RESTful web services, Tkinter desktop GUIs, and PyMySQL database transactions.
                   </div>

@@ -65,7 +65,7 @@ export default function Hero({ onOpenResume }) {
               </div>
 
               <p className="hero-description">
-                Computer Science & Engineering student specializing in Data Analytics, ,
+                Computer Science & Engineering student specializing in Data Analytics, Software Development,
                 and AI-driven computer vision systems. Passionate about solving analytical challenges.
               </p>
 

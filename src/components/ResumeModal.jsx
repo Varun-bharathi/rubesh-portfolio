@@ -115,7 +115,7 @@ export default function ResumeModal({ onClose }) {
 
             {/* Header Candidate Block */}
             <div className="resume-title-block">
-              <h1 className="resume-candidate-name">RUBESH KARTHIK SS</h1>
+              <h1 className="resume-candidate-name">Rubesh Karthik SS</h1>
               <div className="resume-candidate-contact" style={{ marginTop: '0.5rem' }}>
                 <a href="tel:+917708050935" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', color: 'inherit' }}>
                   <Phone size={14} style={{ color: 'var(--cyan)' }} />
@@ -127,14 +127,14 @@ export default function ResumeModal({ onClose }) {
                   <span>rubeshkarthik166@gmail.com</span>
                 </a>
                 <span>|</span>
-                <a href={personalData.linkedin} target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', color: 'inherit' }}>
+                <a href="https://www.linkedin.com/in/rubesh-karthik-ss?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', color: 'inherit' }}>
                   <LinkedinIcon size={14} style={{ color: 'var(--indigo)' }} />
-                  <span>LinkedIn: rubesh-karthik-ss</span>
+                  <span>LinkedIn :rubeshkarthikSS</span>
                 </a>
                 <span>|</span>
                 <a href="https://github.com/Rubesh166" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', color: 'inherit' }}>
                   <GithubIcon size={14} style={{ color: 'var(--cyan)' }} />
-                  <span>GitHub: rubeshkarthikSS</span>
+                  <span>GitHub :rubeshkarthikSS</span>
                 </a>
                 <span>|</span>
                 <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>
@@ -148,7 +148,7 @@ export default function ResumeModal({ onClose }) {
             <div style={{ marginBottom: '1.4rem' }}>
               <h2 className="resume-sec-head">Objective</h2>
               <p style={{ fontSize: '0.92rem', color: 'var(--text-secondary)', lineHeight: '1.65' }}>
-                Aspiring Software Professional with a strong foundation in Data Analyst and  Development. Skilled in Python, SQL, data analysis, visualization, and test automation. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.
+                Aspiring Software Professional with a strong foundation in Data Analyst and Software Development. Skilled in Python, SQL, data analysis and visualization. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.
               </p>
             </div>
 
@@ -160,7 +160,7 @@ export default function ResumeModal({ onClose }) {
                   <strong style={{ color: 'var(--cyan)' }}>▪ Technical Skills:</strong> Python, SQL
                 </div>
                 <div style={{ background: 'rgba(255,255,255,0.02)', padding: '0.5rem 0.75rem', borderRadius: '6px', border: '1px solid var(--border-subtle)' }}>
-                  <strong style={{ color: 'var(--cyan)' }}>▪ Framework:</strong> Pandas, Pytest, OpenCV, Media pipe, Flask
+                  <strong style={{ color: 'var(--cyan)' }}>▪ Framework:</strong> Pandas, Pytest, Open CV, Media pipe, Flask
                 </div>
                 <div style={{ background: 'rgba(255,255,255,0.02)', padding: '0.5rem 0.75rem', borderRadius: '6px', border: '1px solid var(--border-subtle)' }}>
                   <strong style={{ color: 'var(--cyan)' }}>▪ Analytical Skills:</strong> problem-solving, Critical thinking
@@ -169,7 +169,7 @@ export default function ResumeModal({ onClose }) {
                   <strong style={{ color: 'var(--cyan)' }}>▪ Soft Skills:</strong> Communication, Teamwork, Leadership
                 </div>
                 <div style={{ background: 'rgba(255,255,255,0.02)', padding: '0.5rem 0.75rem', borderRadius: '6px', border: '1px solid var(--border-subtle)' }}>
-                  <strong style={{ color: 'var(--cyan)' }}>▪ Tools:</strong> PowerBi, Figma, MS Excel, PyCharm, GitHub
+                  <strong style={{ color: 'var(--cyan)' }}>▪ Tools:</strong> Power Bi, Figma, MS Excel, PyCharm, GitHub
                 </div>
               </div>
             </div>
@@ -182,19 +182,21 @@ export default function ResumeModal({ onClose }) {
               <div className="resume-item-row">
                 <div className="resume-row-top">
                   <span>
-                    <strong>Data Analytics Intern</strong> — Gateway software solutions
+                    <strong>Data Analytics Intern</strong> Gateway software solutions
                   </span>
                   <span className="resume-date-meta">May 2025 – June 2025</span>
                 </div>
                 <ul className="resume-bullets" style={{ marginTop: '0.35rem' }}>
                   <li>
-                    Developed skills in sales data visualization and reporting, enhancing the ability to interpret trends and patterns.
-                  </li>
-                  <li>
-                    Gained practical exposure to how data-driven insights influence real-world business decisions (sales analyst).
-                  </li>
-                  <li style={{ color: 'var(--cyan)', fontWeight: '600' }}>
-                    Tools: Power Bi
+                    Developed skills in sales data visualization and reporting, enhancing the ability to interpret trends and patterns. Gained practical exposure to how data-driven insights influence real-world business decisions(sales analyst). Tools: Power Bi{' '}
+                    <a
+                      href="https://github.com/Rubesh166/power-bi-projects/blob/main/sales%20analysis.pbix"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ color: 'var(--cyan)', textDecoration: 'underline', fontWeight: '600' }}
+                    >
+                      [LINK]
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -203,19 +205,24 @@ export default function ResumeModal({ onClose }) {
               <div className="resume-item-row" style={{ marginTop: '1rem' }}>
                 <div className="resume-row-top">
                   <span>
-                    <strong>Python Development Intern</strong> — Litz Tech
+                    <strong>Python Development Intern</strong> Litz Tech
                   </span>
                   <span className="resume-date-meta">March 2024 – April 2024</span>
                 </div>
                 <ul className="resume-bullets" style={{ marginTop: '0.35rem' }}>
                   <li>
-                    Built a Movie Ticket Reservation System using Python and Tkinter for the user interface.
+                    Built a Movie Ticket Reservation System Using Python and Tkinter for the user interface. PyMySQL to connect with MySQL for handling booking, seat availability, and payment records. implemented features such as seat allocation ,booking validation and database driven show management.
                   </li>
                   <li>
-                    PyMySQL to connect with MySQL for handling booking, seat availability, and payment records. Implemented features such as seat allocation, booking validation and database driven show management.
-                  </li>
-                  <li style={{ color: 'var(--cyan)', fontWeight: '600' }}>
-                    Tech Stack: PyMySQL, MySQL
+                    <strong>Tech Stack:</strong> PyMySQL, MySQL{' '}
+                    <a
+                      href="https://github.com/Rubesh166/movie-tickets-using-pymsql"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ color: 'var(--cyan)', textDecoration: 'underline', fontWeight: '600' }}
+                    >
+                      [LINK]
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -241,16 +248,16 @@ export default function ResumeModal({ onClose }) {
               <div className="resume-item-row">
                 <div className="resume-row-top">
                   <span>
-                    <strong>B.E Computer Science and Engineering</strong> — SNS College Of Technology
+                    <strong>B.E Computer Science and Engineering</strong> SNS College Of Technology
                   </span>
-                  <span className="resume-date-meta">2022-2026 | CGPA: 7.93</span>
+                  <span className="resume-date-meta">2022- 2026 | CGPA: 7.93</span>
                 </div>
               </div>
 
               <div className="resume-item-row">
                 <div className="resume-row-top">
                   <span>
-                    <strong>HSC</strong> — Fusco’s Matric Hr Sec school
+                    <strong>HSC</strong> Fusco’s Matric Hr Sec school
                   </span>
                   <span className="resume-date-meta">2021-2022 | 82.3 %</span>
                 </div>
@@ -259,7 +266,7 @@ export default function ResumeModal({ onClose }) {
               <div className="resume-item-row">
                 <div className="resume-row-top">
                   <span>
-                    <strong>SSLC</strong> — Fusco’s Matric Hr Sec school
+                    <strong>SSLC</strong> Fusco’s Matric Hr Sec school
                   </span>
                   <span className="resume-date-meta">2019 – 2020 | 91.8 %</span>
                 </div>
@@ -270,11 +277,17 @@ export default function ResumeModal({ onClose }) {
             <div style={{ marginBottom: '1.4rem' }}>
               <h2 className="resume-sec-head">Certifications</h2>
               <ul className="resume-bullets">
-                <li>Python Programming</li>
-                <li>Oracle Cloud Certified AI Foundation Associate – 2025</li>
-                <li>SQL Certification</li>
-                <li>Data Science Certification</li>
-                <li>Databricks Gen AI Fundamentals</li>
+                <li>
+                  Python Programming | Oracle Cloud Certified AI Foundation Associate– 2025 | SQL | Data Science Certification | Databricks Gen AI Fundamentals |{' '}
+                  <a
+                    href="https://drive.google.com/drive/folders/1HEW4BxygFb6gDvrbxXJUSpyB-5Fd2MAv"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: 'var(--cyan)', textDecoration: 'underline', fontWeight: '600' }}
+                  >
+                    [LINK]
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -286,14 +299,22 @@ export default function ResumeModal({ onClose }) {
               <div className="resume-item-row">
                 <div className="resume-row-top">
                   <strong style={{ fontSize: '1rem', color: 'var(--text-main)' }}>
-                    Facial and Hand Gesture Using AI-Powered Attendance System
+                    Facial and Hand Gesture Using AI- Powered Attendance System{' '}
+                    <a
+                      href="https://github.com/Rubesh166/facial-and-hand-gesture-using-ai-powered-attendance-system"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ color: 'var(--cyan)', textDecoration: 'underline', fontSize: '0.85rem' }}
+                    >
+                      [LINK]
+                    </a>
                   </strong>
                 </div>
-                <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', margin: '0.35rem 0' }}>
-                  Developed an AI-powered system for real-time face recognition and hand gesture detection. Implemented Thumbs Up, Thumbs Down, and Neutral gesture feedback within a 15-second capture window. Developed separate Staff and Student dashboards to monitor attendance and hand gesture feedback. Enabled staff to mark attendance using face recognition and collect gesture-based feedback. Automatically stored user details and feedback in a CSV file.
+                <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', margin: '0.35rem 0', lineHeight: '1.6' }}>
+                  Developed an AI-powered system for real-time face recognition and hand gesture detection. Implemented Thumbs Up, Thumbs Down, and Neutral gesture feedback within a 15-second capture window. Developed separate Staff and Student dashboards to monitor attendance and hand gesture feedback Enabled staff to mark attendance using face recognition and collect gesture-based feedback. Automatically stored user details and feedback in a CSV file.
                 </p>
                 <div style={{ fontSize: '0.84rem', color: 'var(--cyan)', fontWeight: '600' }}>
-                  Tech Stack: Pandas, OpenCV, Media pipe, Flask, Face-Recognition
+                  Tech Stack: Pandas, Open CV, Media pipe, Flask, Face-Recognition.
                 </div>
               </div>
 
@@ -301,10 +322,18 @@ export default function ResumeModal({ onClose }) {
               <div className="resume-item-row" style={{ marginTop: '1.1rem' }}>
                 <div className="resume-row-top">
                   <strong style={{ fontSize: '1rem', color: 'var(--text-main)' }}>
-                    Real-Time Attendance & Performance Tracking using Business Intelligence
+                    Real-Time Attendance & Performance Tracking using Business Intelligence{' '}
+                    <a
+                      href="https://github.com/Rubesh166/power-bi-projects/blob/main/attendance%20analysis.pbix"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ color: 'var(--cyan)', textDecoration: 'underline', fontSize: '0.85rem' }}
+                    >
+                      [LINK]
+                    </a>
                   </strong>
                 </div>
-                <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', margin: '0.35rem 0' }}>
+                <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', margin: '0.35rem 0', lineHeight: '1.6' }}>
                   Designed and developed an interactive BI dashboard to track real-time attendance and performance across teams, managers, and job levels, enabling data-driven insights and improved decision-making.
                 </p>
                 <div style={{ fontSize: '0.84rem', color: 'var(--cyan)', fontWeight: '600' }}>

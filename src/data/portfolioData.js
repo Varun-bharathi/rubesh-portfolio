@@ -3,7 +3,7 @@ export const personalData = {
   fullName: "Rubesh Karthik SS",
   title: "Computer Science & Engineering Student",
   roles: [
-    "Data Analytics &  Developer",
+    "Data Analytics & Software Developer",
     "AI & Computer Vision Enthusiast",
     "B.E. CSE Student @ SNS College of Technology",
     "Full-Stack Web & Software Developer"
@@ -19,7 +19,7 @@ export const personalData = {
   linkedin: "https://www.linkedin.com/in/rubesh-karthik-ss?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   leetcode: "https://leetcode.com/rubeshkarthikSS",
   twitter: "https://x.com/rubeshkarthikSS",
-  bio: "Aspiring Software Professional with a strong foundation in Data Analyst and  Development. Skilled in Python, SQL, data analysis, visualization, and test automation. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.",
+  bio: "Aspiring Software Professional with a strong foundation in Data Analyst and Software Development. Skilled in Python, SQL, data analysis and visualization. Proficient in developing efficient, data-driven solutions with strong problem-solving and analytical skills.",
   quickStats: [
     { label: "B.E. CGPA", value: "7.93", helper: "SNS College of Technology" },
     { label: "Technical Projects", value: "6+", helper: "AI, Python & Analytics" },
@@ -79,8 +79,8 @@ export const projectsData = [
     longDescription: "Developed an AI-powered system for real-time face recognition and hand gesture detection. Implemented Thumbs Up, Thumbs Down, and Neutral gesture feedback within a 15-second capture window. Engineered separate Staff and Student dashboards to monitor attendance and hand gesture feedback, allowing staff to mark attendance seamlessly using facial recognition and collect gesture-based feedback stored automatically in CSV records.",
     tags: ["Python", "OpenCV", "MediaPipe", "Flask", "Pandas", "Face-Recognition"],
     metrics: "15-sec capture window • Real-time gesture feedback",
-    github: "https://github.com/Rubesh166",
-    demo: "https://github.com/Rubesh166#readme",
+    github: "https://github.com/Rubesh166/facial-and-hand-gesture-using-ai-powered-attendance-system",
+    demo: "https://github.com/Rubesh166/facial-and-hand-gesture-using-ai-powered-attendance-system",
     architecture: [
       "Face Recognition Pipeline: 128-d face embeddings comparison with OpenCV cascade",
       "Gesture Detector: MediaPipe 21-point hand landmark vector tracking (Thumbs Up/Down/Neutral)",
@@ -99,8 +99,8 @@ export const projectsData = [
     longDescription: "Designed and developed an interactive BI dashboard to track real-time attendance and performance across teams, managers, and job levels, enabling data-driven insights and improved decision-making for organizational leadership.",
     tags: ["Power BI", "SQL", "Data Analytics", "DAX", "Business Intelligence"],
     metrics: "Cross-department KPI tracking • Real-time dashboards",
-    github: "https://github.com/Rubesh166",
-    demo: "https://github.com/Rubesh166#readme",
+    github: "https://github.com/Rubesh166/power-bi-projects/blob/main/attendance%20analysis.pbix",
+    demo: "https://github.com/Rubesh166/power-bi-projects/blob/main/attendance%20analysis.pbix",
     architecture: [
       "Data Extraction: SQL data pipelines querying employee logs and timesheet data",
       "Data Modeling: Star-schema relational model linking departments, roles, and attendance",
@@ -119,8 +119,8 @@ export const projectsData = [
     longDescription: "Built a Movie Ticket Reservation System using Python and Tkinter for the graphical user interface, and PyMySQL to connect with MySQL for handling booking, seat availability, and payment records. Implemented features such as seat allocation, booking validation, and database-driven show management.",
     tags: ["Python", "Tkinter", "PyMySQL", "MySQL", "Database Design"],
     metrics: "ACID database transactions • Interactive GUI seat grid",
-    github: "https://github.com/Rubesh166",
-    demo: "https://github.com/Rubesh166#readme",
+    github: "https://github.com/Rubesh166/movie-tickets-using-pymsql",
+    demo: "https://github.com/Rubesh166/movie-tickets-using-pymsql",
     architecture: [
       "GUI Interface: Python Tkinter layout with real-time seat matrix grid",
       "Database Layer: MySQL schema managing movie schedules, theaters, and user bookings",
@@ -139,8 +139,8 @@ export const projectsData = [
     longDescription: "Created comprehensive sales trend reports and interactive dashboards. Interpreted patterns in customer purchase behavior, seasonal revenue shifts, and product category profitability, delivering actionable insights for management.",
     tags: ["Power BI", "Sales Analysis", "Data Modeling", "Excel", "SQL"],
     metrics: "Trend forecasting • Actionable revenue optimization",
-    github: "https://github.com/Rubesh166",
-    demo: "https://github.com/Rubesh166#readme",
+    github: "https://github.com/Rubesh166/power-bi-projects/blob/main/sales%20analysis.pbix",
+    demo: "https://github.com/Rubesh166/power-bi-projects/blob/main/sales%20analysis.pbix",
     architecture: [
       "ETL Pipeline: Cleansed and aggregated raw transaction datasets",
       "DAX Measures: Revenue growth rates, customer retention indices, and margin calculations",
@@ -236,7 +236,7 @@ export const educationData = {
     "Data Structures & Algorithms",
     "Database Management Systems (DBMS)",
     "Computer Networks",
-    " & Scripting",
+    "Python & Software Development",
     "Data Analytics & Business Intelligence",
     "Operating Systems",
     "Software Engineering Principles"
