@@ -1,0 +1,56 @@
+@import './styles/variables.css';
+@import './styles/global.css';
+@import './styles/components.css';
+
+/* Print Styles for Resume */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  .navbar,
+  .canvas-container,
+  .hero-section,
+  .stats-bar-section,
+  .section,
+  .footer,
+  .modal-close-btn,
+  .resume-header-bar,
+  .modal-overlay {
+    background: none !important;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  #printable-resume,
+  #printable-resume * {
+    visibility: visible;
+  }
+
+  #printable-resume {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 1.5cm;
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  .resume-paper {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  .resume-sec-head {
+    color: #2563eb !important;
+  }
+
+  .resume-candidate-contact a {
+    color: #111827 !important;
+  }
+}

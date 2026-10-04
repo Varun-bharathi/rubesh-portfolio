@@ -1,0 +1,102 @@
+# ====================================================
+# SENSITIVE FILES & ENVIRONMENT SECRETS
+# ====================================================
+# Environment variable files (API keys, EmailJS secrets, credentials)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# Private credentials, keys, certificates
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+credentials.json
+secrets.json
+service-account*.json
+id_rsa*
+id_ed25519*
+
+# ====================================================
+# DEPENDENCIES & PACKAGE MANAGERS
+# ====================================================
+node_modules/
+.pnp/
+.pnp.js
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+
+# ====================================================
+# PRODUCTION BUILDS & COMPILER OUTPUTS
+# ====================================================
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.vite/
+*.tsbuildinfo
+
+# ====================================================
+# LOGS & DIAGNOSTICS
+# ====================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+vite.log
+
+# ====================================================
+# TESTING & CODE COVERAGE
+# ====================================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ====================================================
+# IDE & EDITOR FILES
+# ====================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# ====================================================
+# OPERATING SYSTEM SPECIFIC FILES
+# ====================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ====================================================
+# TEMPORARY & CACHE DIRECTORIES
+# ====================================================
+.cache/
+.temp/
+.tmp/
+scratch/
